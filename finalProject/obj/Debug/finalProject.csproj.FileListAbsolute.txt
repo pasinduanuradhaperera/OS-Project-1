@@ -1,0 +1,11 @@
+E:\cpu monitor\project 7\finalProject\bin\Debug\finalProject.exe.config
+E:\cpu monitor\project 7\finalProject\bin\Debug\finalProject.exe
+E:\cpu monitor\project 7\finalProject\bin\Debug\finalProject.pdb
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.csproj.AssemblyReference.cache
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.csproj.SuggestedBindingRedirects.cache
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.Form1.resources
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.Properties.Resources.resources
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.csproj.GenerateResource.cache
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.csproj.CoreCompileInputs.cache
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.exe
+E:\cpu monitor\project 7\finalProject\obj\Debug\finalProject.pdb
