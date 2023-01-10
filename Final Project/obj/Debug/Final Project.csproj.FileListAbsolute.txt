@@ -1,0 +1,47 @@
+E:\cpu monitor\final\Final Project\bin\Debug\Final Project.exe.config
+E:\cpu monitor\final\Final Project\bin\Debug\Final Project.exe
+E:\cpu monitor\final\Final Project\bin\Debug\Final Project.pdb
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.csproj.SuggestedBindingRedirects.cache
+E:\cpu monitor\final\Final Project\obj\Debug\Final_Project.Form1.resources
+E:\cpu monitor\final\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.exe
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.pdb
+E:\cpu monitor\final\Final Project\bin\Debug\CircularProgressBar.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Data.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Drawing.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Utils.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\WinFormAnimation.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+E:\cpu monitor\final\Final Project\bin\Debug\CircularProgressBar.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Data.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Utils.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.csproj.CopyComplete
+E:\cpu monitor\final\Final Project\obj\Debug\Final Project.exe.licenses
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraGrid.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraLayout.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraPrinting.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraBars.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.RichEdit.v22.2.Core.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraTreeList.v22.2.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Office.v22.2.Core.dll
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraGrid.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraLayout.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraPrinting.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraBars.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
+E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Office.v22.2.Core.xml
