@@ -32,6 +32,7 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pCpu = new System.Diagnostics.PerformanceCounter();
             this.timer = new System.Windows.Forms.Timer(this.components);
@@ -40,11 +41,10 @@
             this.pDiskW = new System.Diagnostics.PerformanceCounter();
             this.pRamAval = new System.Diagnostics.PerformanceCounter();
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.panelDesktopPane = new System.Windows.Forms.Panel();
             this.btn_ram = new System.Windows.Forms.Button();
-            this.btn_network = new System.Windows.Forms.Button();
             this.btn_disk = new System.Windows.Forms.Button();
             this.btn_cpu = new System.Windows.Forms.Button();
+            this.panelDesktopPane = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -111,21 +111,12 @@
             // panelMenu
             // 
             this.panelMenu.Controls.Add(this.btn_ram);
-            this.panelMenu.Controls.Add(this.btn_network);
             this.panelMenu.Controls.Add(this.btn_disk);
             this.panelMenu.Controls.Add(this.btn_cpu);
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
             this.panelMenu.Name = "panelMenu";
             this.panelMenu.Size = new System.Drawing.Size(51, 412);
             this.panelMenu.TabIndex = 7;
-            // 
-            // panelDesktopPane
-            // 
-            this.panelDesktopPane.Controls.Add(this.panel1);
-            this.panelDesktopPane.Location = new System.Drawing.Point(50, 0);
-            this.panelDesktopPane.Name = "panelDesktopPane";
-            this.panelDesktopPane.Size = new System.Drawing.Size(582, 412);
-            this.panelDesktopPane.TabIndex = 9;
             // 
             // btn_ram
             // 
@@ -140,20 +131,6 @@
             this.btn_ram.TabIndex = 3;
             this.btn_ram.UseVisualStyleBackColor = false;
             this.btn_ram.Click += new System.EventHandler(this.btn_ram_Click);
-            // 
-            // btn_network
-            // 
-            this.btn_network.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(31)))), ((int)(((byte)(31)))));
-            this.btn_network.FlatAppearance.BorderSize = 0;
-            this.btn_network.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_network.ForeColor = System.Drawing.Color.White;
-            this.btn_network.Image = global::Final_Project.Properties.Resources.NETWORK;
-            this.btn_network.Location = new System.Drawing.Point(1, 223);
-            this.btn_network.Name = "btn_network";
-            this.btn_network.Size = new System.Drawing.Size(49, 49);
-            this.btn_network.TabIndex = 2;
-            this.btn_network.UseVisualStyleBackColor = false;
-            this.btn_network.Click += new System.EventHandler(this.btn_network_Click);
             // 
             // btn_disk
             // 
@@ -182,6 +159,14 @@
             this.btn_cpu.TabIndex = 0;
             this.btn_cpu.UseVisualStyleBackColor = false;
             this.btn_cpu.Click += new System.EventHandler(this.btn_cpu_Click);
+            // 
+            // panelDesktopPane
+            // 
+            this.panelDesktopPane.Controls.Add(this.panel1);
+            this.panelDesktopPane.Location = new System.Drawing.Point(50, 0);
+            this.panelDesktopPane.Name = "panelDesktopPane";
+            this.panelDesktopPane.Size = new System.Drawing.Size(582, 412);
+            this.panelDesktopPane.TabIndex = 9;
             // 
             // panel1
             // 
@@ -302,7 +287,7 @@
             this.lb_diskWrite.AutoSize = true;
             this.lb_diskWrite.BackColor = System.Drawing.Color.Transparent;
             this.lb_diskWrite.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_diskWrite.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.lb_diskWrite.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.lb_diskWrite.Location = new System.Drawing.Point(86, 78);
             this.lb_diskWrite.Name = "lb_diskWrite";
             this.lb_diskWrite.Size = new System.Drawing.Size(67, 15);
@@ -341,7 +326,7 @@
             this.lb_diskRead.AutoSize = true;
             this.lb_diskRead.BackColor = System.Drawing.Color.Transparent;
             this.lb_diskRead.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_diskRead.ForeColor = System.Drawing.Color.Pink;
+            this.lb_diskRead.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lb_diskRead.Location = new System.Drawing.Point(86, 59);
             this.lb_diskRead.Name = "lb_diskRead";
             this.lb_diskRead.Size = new System.Drawing.Size(67, 15);
@@ -387,6 +372,7 @@
             // 
             this.chart1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.chart1.BackColor = System.Drawing.Color.Transparent;
+            chartArea1.Area3DStyle.Enable3D = true;
             chartArea1.AxisX.IntervalType = System.Windows.Forms.DataVisualization.Charting.DateTimeIntervalType.Seconds;
             chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.White;
             chartArea1.AxisX.MajorTickMark.LineColor = System.Drawing.Color.White;
@@ -397,7 +383,6 @@
             chartArea1.AxisX.MinorGrid.LineWidth = 2;
             chartArea1.AxisX2.MajorGrid.LineColor = System.Drawing.Color.White;
             chartArea1.AxisY.IsMarginVisible = false;
-            chartArea1.AxisY.IsReversed = true;
             chartArea1.AxisY.LineColor = System.Drawing.Color.Bisque;
             chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.White;
             chartArea1.AxisY.MajorTickMark.LineColor = System.Drawing.Color.White;
@@ -430,17 +415,28 @@
             legend1.Enabled = false;
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(252, 0);
+            this.chart1.Location = new System.Drawing.Point(259, 0);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.None;
             this.chart1.PaletteCustomColors = new System.Drawing.Color[] {
-        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))))};
+        System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0))))),
+        System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))))};
+            series1.BorderWidth = 5;
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
             series1.LabelForeColor = System.Drawing.Color.White;
             series1.Legend = "Legend1";
             series1.Name = "CPU";
             series1.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
+            series1.YValuesPerPoint = 2;
+            series2.BorderWidth = 5;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Legend = "Legend1";
+            series2.Name = "disk";
+            series2.YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
             this.chart1.Series.Add(series1);
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(343, 408);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
@@ -517,7 +513,6 @@
         private System.Diagnostics.PerformanceCounter pDiskW;
         private System.Diagnostics.PerformanceCounter pRamAval;
         private System.Windows.Forms.Button btn_ram;
-        private System.Windows.Forms.Button btn_network;
         private System.Windows.Forms.Button btn_disk;
         private System.Windows.Forms.Button btn_cpu;
         private System.Windows.Forms.Panel panelMenu;

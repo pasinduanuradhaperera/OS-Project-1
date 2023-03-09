@@ -1,0 +1,20 @@
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.csproj.AssemblyReference.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final_Project.Form1.resources
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final_Project.Properties.Resources.resources
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.csproj.GenerateResource.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.exe.licenses
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\Final Project.exe.config
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\Final Project.exe
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\Final Project.pdb
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\CircularProgressBar.dll
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\WinFormAnimation.dll
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\CircularProgressBar.xml
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.csproj.CopyComplete
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.exe
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.pdb
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\Final Project.exe.manifest
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Release\Final Project.application
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.exe.manifest
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Release\Final Project.application

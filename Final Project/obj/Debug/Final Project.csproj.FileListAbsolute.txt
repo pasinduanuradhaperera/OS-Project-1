@@ -45,3 +45,19 @@ E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraBars.v22.2.xml
 E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.RichEdit.v22.2.Core.xml
 E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.XtraTreeList.v22.2.xml
 E:\cpu monitor\final\Final Project\bin\Debug\DevExpress.Office.v22.2.Core.xml
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\Final Project.exe
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\Final Project.pdb
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\CircularProgressBar.dll
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\WinFormAnimation.dll
+C:\Users\pasin\source\repos\New folder\Final Project\bin\Debug\CircularProgressBar.xml
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final_Project.Form1.resources
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.exe.licenses
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.csproj.CopyComplete
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.exe
+C:\Users\pasin\source\repos\New folder\Final Project\obj\Debug\Final Project.pdb

@@ -1,5 +1,4 @@
-﻿using DevExpress.Data.Helpers;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +14,7 @@ namespace Final_Project
 {
     public partial class Form1 : Form
     {
-        private Button currentButton;
-        private Form activeForm;
+        private Button currentButton;        
 
         public Form1()
         {
@@ -83,14 +81,14 @@ namespace Final_Project
             {
                 label1.Text = "CPU";//labale name
                 //update charts             
-                updateChart(Gvar.fcpu);
+                UpdateChart(Gvar.fcpu);
 
             }
             else if (Gvar.W == 2)
             {
                 label1.Text = "RAM";//labale name
                 //update charts             
-                updateChart(Gvar.fram);
+                UpdateChart(Gvar.fram);
                 
                 
                 
@@ -100,7 +98,7 @@ namespace Final_Project
             {
                 label1.Text = "DISK";//labale name
                 //update charts             
-                updateChart(Gvar.fdiskR);
+                UpdateChart(Gvar.fdiskR);
 
 
             }
@@ -112,22 +110,44 @@ namespace Final_Project
             }
 
         }
-        private void updateChart(float[] A)
-        {   
-            //circular chart 
-            cCPU.Value = (int)A[59];
-            cCPU.Text = string.Format("{0:0}", A[59]);
-
-            //update chart 
-            foreach (var series in chart1.Series)
+        private void UpdateChart(float[] A)
+        {
+            if (Gvar.W != 3)
             {
-                series.Points.Clear();
+                //circular chart 
+                cCPU.Value = (int)A[59];
+                cCPU.Text = string.Format("{0:0}", A[59]);
+
+                //update chart 
+                foreach (var series in chart1.Series)
+                {
+                    series.Points.Clear();
+                }
+
+                for (int i = 0; i < 60; i++)
+                {
+                    chart1.Series["CPU"].Points.Add(A[i]);
+
+                }
+            }
+            else
+            {
+                //circular chart 
+                cCPU.Value = (int)100;
+                cCPU.Text = string.Format("---", 0);
+
+                foreach (var series in chart1.Series)
+                {
+                    series.Points.Clear();
+                }
+
+                for (int i = 0; i < 60; i++)
+                {
+                    chart1.Series["CPU"].Points.Add(A[i]);
+                    chart1.Series["disk"].Points.Add(Gvar.fdiskW[i]);
+                }
             }
 
-            for (int i = 0; i < 60; i++)
-            {
-                chart1.Series["CPU"].Points.Add(A[i]);
-            }
         }
         //change color when button active
         private void ActivateButton(object btnSender)
