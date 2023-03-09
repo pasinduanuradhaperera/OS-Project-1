@@ -8,7 +8,7 @@ EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "setup SRM", "..\setup SRM\setup SRM.vdproj", "{62DBA330-4D4C-4385-BA3D-13EC7518CB23}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	GlobalSection(SolutionConfigurationPlatforms) = prevSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
@@ -20,7 +20,7 @@ Global
 		{62DBA330-4D4C-4385-BA3D-13EC7518CB23}.Debug|Any CPU.ActiveCfg = Debug
 		{62DBA330-4D4C-4385-BA3D-13EC7518CB23}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
+	GlobalSection(SolutionProperties) = prevSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
