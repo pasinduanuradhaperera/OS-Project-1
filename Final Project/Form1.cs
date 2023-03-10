@@ -79,14 +79,14 @@ namespace Final_Project
             //cpu status update
             if (Gvar.W == 1)
             {
-                label1.Text = "CPU";//labale name
+                label1.Text = "CPU"; //label name
                 //update charts             
                 UpdateChart(Gvar.fcpu);
 
             }
             else if (Gvar.W == 2)
             {
-                label1.Text = "RAM";//labale name
+                label1.Text = "RAM";//label name
                 //update charts             
                 UpdateChart(Gvar.fram);
                 
@@ -96,7 +96,7 @@ namespace Final_Project
             }
             else if (Gvar.W == 3)
             {
-                label1.Text = "DISK";//labale name
+                label1.Text = "DISK";//label name
                 //update charts             
                 UpdateChart(Gvar.fdiskR);
 
