@@ -3,12 +3,12 @@
     partial class Form1
     {
         /// <summary>
-        /// Required designer variable.
+        /// required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Required method for Designer support - dont modify
+        /// The contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -441,7 +441,7 @@
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart1";
             // 
-            // cCPU
+            // for cCPU
             // 
             this.cCPU.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
             this.cCPU.AnimationSpeed = 500;
@@ -473,7 +473,7 @@
             this.cCPU.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
             this.cCPU.Value = 68;
             // 
-            // Form1
+            // for Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
