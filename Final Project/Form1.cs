@@ -29,7 +29,7 @@ namespace Final_Project
         }
 
         //all gloabal variables
-        public static class Gvar
+        public static class Gvar 
         {
             
             public static float[] fcpu = new float[60];
