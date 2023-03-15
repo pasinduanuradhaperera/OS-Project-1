@@ -50,6 +50,9 @@ namespace Final_Project
             float framB = pRamAval.NextValue();
             Gvar.fdiskR[59] = pDiskR.NextValue();//disk read
             Gvar.fdiskW[59] = pDiskW.NextValue(); // disk write
+             Console.write("Summary");
+             Console.write("Summary");
+             Console.write("Summary");
 
             //convert B to MB
             float framBMB = framB / 1024 / 1024;
