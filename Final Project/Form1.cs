@@ -44,7 +44,7 @@ namespace Final_Project
         private void Timer_Tick(object sender, EventArgs e)
         
         {
-            //take realtime updates
+            //take realtime updates.
             Gvar.fcpu[59] = pCpu.NextValue();//cpu%
             Gvar.fram[59] = pRam.NextValue();//ram%
             float framB = pRamAval.NextValue();
