@@ -7,7 +7,7 @@ using System.Windows.Forms;
 namespace Final_Project
 {
     internal static class Program
-    {    Console.write("Summary");
+    {   
         /// <summary>
         /// the main entry point for the application.
         /// </summary>
@@ -17,7 +17,7 @@ namespace Final_Project
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
-            Console.write("Summary");
+            
         }
     }
 }
