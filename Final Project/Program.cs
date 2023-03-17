@@ -19,7 +19,6 @@ namespace Final_Project
             Application.Run(new Form1());
             
             Console.Write("summary");
-            Console.Write("summary");
 
         }
     }
