@@ -21,7 +21,6 @@ namespace Final_Project
             Console.Write("summary");
             Console.Write("summary");
             Console.Write("summary");
-            Console.Write("summary");
 
         }
     }
